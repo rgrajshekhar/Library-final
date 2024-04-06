@@ -51,8 +51,8 @@ if (type) {
 return ( 
 	<div 
 	style={{ 
-		padding: "16px", 
-		margin: "16px", 
+		padding: "20px", 
+		margin: "20px", 
 	}} 
 	> 
 	<form> 
