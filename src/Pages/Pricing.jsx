@@ -86,7 +86,7 @@ const Pricing = () => {
 
 				<div class="flex flex-col flex-grow overflow-hidden bg-white rounded-lg shadow-lg mt-19">
 			<div class="flex flex-col items-center p-10 bg-gray-200">
-				<span class="font-semibold">Lifetime Plan</span>
+				<span class="font-semibold">3-Years Plan</span>
 				<div class="flex items-center">
 					<span class="text-3xl">&#8377;</span>
 					<span class="text-5xl font-bold">10,000</span>
