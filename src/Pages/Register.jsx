@@ -32,7 +32,7 @@ const Register = () => {
     
 
     try {
-      await axios.post('http://localhost:3001/register', { fname: user.fname, uname: user.uname, uemail: user.uemail, uphone: user.uphone, password: user.password});
+      await axios.post('http://13.232.39.133:6000/api/v1/users/register', { fname: user.fname, uname: user.uname, uemail: user.uemail, uphone: user.uphone, password: user.password});
       console.log('Data inserted successfully');
       // Reset form fields after successful submission if needed
       alert('User Registered ');
