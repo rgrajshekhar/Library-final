@@ -3,7 +3,7 @@ import React from 'react'
 const Pricing = () => {
  
   const handleJoin = (e) => {
-    window.location.href="https://rzp.io/l/JBn9OPMGK8"
+    window.location.href="https://rzp.io/l/rD3qtnqGmB" 
   }
   return (
     <div class="max-w-100 max-h-75">

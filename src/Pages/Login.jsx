@@ -24,7 +24,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://13.232.39.133:6000/api/v1/users/login', formData);
+            const response = await axios.post('http://localhost:6000/api/v1/users/login', formData);
             const { token } = response.data;
             console.log("Login Token is: " + token)
             localStorage.setItem('token', token);
